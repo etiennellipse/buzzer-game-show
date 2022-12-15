@@ -1,9 +1,6 @@
 A fork of the MIT licensed [buzzer from bufferapp](https://github.com/bufferapp/buzzer)
 
-Customized for Hacker Jeopardy at MCH2022. New features:
-* Sound buzzer
-* Red background when the first user presses the buzzer
-* Larger text for usage in a large room
+Customized for La Fureur 2 at Optania Christmas party.
 
 If you can, you should use hardware buttons. Those are way more fun than this, and also makes checking against cheating way easier because you can just forbid the use of smartphones. This is more of a last resort option. Check out [this article on Hackaday](https://hackaday.com/2019/08/20/game-on-with-these-open-source-arduino-buzzers/)
 

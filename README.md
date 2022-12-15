@@ -2,13 +2,9 @@ A fork of the MIT licensed [buzzer from bufferapp](https://github.com/bufferapp/
 
 Customized for La Fureur 2 at Optania Christmas party.
 
-If you can, you should use hardware buttons. Those are way more fun than this, and also makes checking against cheating way easier because you can just forbid the use of smartphones. This is more of a last resort option. Check out [this article on Hackaday](https://hackaday.com/2019/08/20/game-on-with-these-open-source-arduino-buzzers/)
-
-![Buzzer screenshot](/screenshots/buzzer.png "Buzzer screenshot")
 
 ## Known issues
 * Host is not warned when audio permissions aren't given
-* Buzzer sounds can overlap
 * Number of joined users does not decrease when users leave the buzzer
 * Teams are not deduplicated
 * Everything is unauthenticated

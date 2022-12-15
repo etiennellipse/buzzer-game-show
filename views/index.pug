@@ -1,0 +1,31 @@
+doctype html
+html
+  head
+    title=title
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+    link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:500,700|Roboto:400,500,700,900")
+    link(rel="stylesheet" href='/style.css')
+  body.js-body
+    header
+      img.logo(src='/buzzer-logo.svg')
+
+    div.container
+      form.view.js-join
+        // img(src="/lets-play.png" class="main-image")
+        // h2="Let's play!"
+        input(type='text' name='name' placeholder='Name' required='required')
+        // input(type='text' name='team' placeholder='Team' required='required')
+        select(type='select' name='team' placeholder='Team' required='required')
+            option(value="Awesong" selected=true) Team Awesong
+            option(value="Beatastic") Team Beatastic
+            option(value="Christmore") Team Christmore
+        button(type='submit')='Join!'
+
+      div.view.js-joined.hidden
+        //img.logo(src='/buzzer-logo.svg')
+        button.js-buzzer.buzzer()="Buzz!"
+        p.js-joined-info=""
+        button.js-edit.secondary='Change teams'
+
+    script(src='/socket.io/socket.io.js')
+    script(src='/join.js')
